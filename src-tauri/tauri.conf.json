@@ -13,11 +13,17 @@
     "windows": [
       {
         "title": "gs",
-        "width": 632,
-        "height": 90,
+        "width": 680,
+        "height": 30,
         "resizable": false,
         "decorations": false,
-        "transparent": true
+        "transparent": true,
+        "alwaysOnTop": true,
+        "center": true,
+        "skipTaskbar": true,
+        "fullscreen": false,
+        "maximizable": false,
+        "minimizable": false
       }
     ],
     "security": {

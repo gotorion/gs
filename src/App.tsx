@@ -17,18 +17,16 @@ function App() {
   };
 
   return (
-    <div className="container">
-      <div className="search-box" data-tauri-drag-region>
-        <input
-          type="text"
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-          onKeyDown={handleSearch}
-          placeholder="输入搜索内容并按回车..."
-          className="search-input"
-          autoFocus
-        />
-      </div>
+    <div className="search-box" data-tauri-drag-region>
+      <input
+        type="text"
+        value={searchQuery}
+        onChange={(e) => setSearchQuery(e.target.value)}
+        onKeyDown={handleSearch}
+        placeholder="输入搜索内容并按回车..."
+        className="search-input"
+        autoFocus
+      />
     </div>
   );
 }
